@@ -1,0 +1,31 @@
+////Ignorar este comando////
+pyinstaller --clean --onefile --windowed --i media/Icono.ico GalacticQuest.py
+
+
+
+////Como empezar el programa////
+En la carpeta del proyecto se encuentra un archivo ejecutable (exe)
+el cual inicia con el videojuego
+
+
+////Teclas////
+Movimiento: A,D
+Disparo: FlechaArriba
+Volumen: 1,2
+Pausa: Esc
+
+
+
+////Objetivo////
+Destruir y esquivar la mayor cantidad de asteroides y enemigos antes de agotar
+todas las vidas
+
+
+
+////EXTRA////
+Al finalizar una partida el programa creara
+un archivo llamado puntuaciones.txt en la misma carpeta,
+donde se registrara todas las puntuaciones de los jugadores
+
+
+
